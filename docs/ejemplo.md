@@ -7,10 +7,10 @@
 
 ## 1) Resumen
 
-- **Nombre del proyecto:** _Mi Proyecto_  
-- **Equipo / Autor(es):** _Nombre(s)_  
-- **Curso / Asignatura:** _Nombre del curso_  
-- **Fecha:** _DD/MM/AAAA_  
+- **Nombre del proyecto:** _Portafolio Mecatronica_  
+- **Equipo / Autor(es):** _Alexandra Groot Cruz_  
+- **Curso / Asignatura:** _Introducción_  
+- **Fecha:** _22/08/2025_  
 - **Descripción breve:** _Una o dos líneas que expliquen qué hace y por qué._
 
 !!! tip "Consejo"
