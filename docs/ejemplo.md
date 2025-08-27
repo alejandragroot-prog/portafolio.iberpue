@@ -12,12 +12,8 @@
 - **Semestre:** _1°_  
 - **Información de contacto** _alexagroot@gmail.com_
 
-!!! tip "Sugerencia"
-    Me gusta escuchar kpop (mis grupos favoritos son TXT y Twice).
-Cocinar postres. 
-     Leer.
-     Hacer manualidades
-     Ver anime.
+!!! tip "Intereses"
+    Me gusta escuchar kpop (mis grupos favoritos son TXT y Twice), cocinar postres, leer, hacer manualidades, ver anime.
 
 
 !!! note "Logros significativos"
