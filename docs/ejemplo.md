@@ -21,5 +21,5 @@
     
 ![Diagrama del sistema](docs/recursos/imgs/WhatsApp Image 2025-08-26 at 9.13.55 PM.jpeg)
 
-<!-- Control de tamaño usando HTML (cuando se requiera) -->
-<img src="docs/recursos/imgs/WhatsApp Image 2025-08-26 at 9.13.55 PM.jpeg"  width="420">
+<img src="docs/recursos/imgs/WhatsApp Image 2025-08-26 at 9.13.55 PM.jpeg" alt="Diagrama del sistema" width="420">
+
