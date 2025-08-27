@@ -1,24 +1,28 @@
-# 📚 Ejemplo de Documentación del Proyecto
+# Sobre mi
 
 > Plantilla genérica para documentar proyectos académicos o de ingeniería.  
 > Copia y adapta las secciones según tu necesidad.
 
 ---
 
-## 1) Resumen
+## Resumen Personal
 
-- **Nombre del proyecto:** _Portafolio Mecatronica_  
-- **Equipo / Autor(es):** _Alexandra Groot Cruz_  
-- **Curso / Asignatura:** _Introducción_  
-- **Fecha:** _22/08/2025_  
-- **Descripción breve:** _Una o dos líneas que expliquen qué hace y por qué._
+- **Nombre** _Alexandra Groot Cruz _  
+- **Carrera** _Ingeniería en Mecatrónica_  
+- **Semestre:** _1°_  
+- **Información de contacto** _alexagroot@gmail.com_
 
-!!! tip "Consejo"
-    Mantén este resumen corto (máx. 5 líneas). Lo demás va en secciones específicas.
+!!! tip "Intereses"
+ * Me gusta escuchar kpop (mis grupos favoritos son TXT y Twice).
+    * Cocinar postres. 
+    * Leer.
+    * Hacer manualidades
+    * Ver anime.
 
 ---
-
-## 2) Objetivos
+!!! note "Logros significativos"
+    Participar en concursos nacionales de física y matemáticas, habiendo ganado medalla en dos ocasiones y gracias a estos mismos poder viajar a otros estados de la República, al mismo tiempo de conocer y convivir con personas que les apasiona las ciencias exactas en la misma manera en lo que me gusta a mi.
+## 
 
 - **General:** _Qué se pretende lograr en términos amplios._
 - **Específicos:**
