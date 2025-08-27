@@ -29,4 +29,4 @@ Cocinar postres.
 ![Diagrama del sistema](recursos/imgs/ibero.jpeg)
 
 <!-- Control de tamaño usando HTML (cuando se requiera) -->
-<img src="../recursos/imgs/WhatsApp Image 2025-08-26 at 9.13.55 PM.jpeg" alt="Diagrama del sistema" width="420">
+<img src="../recursos/imgs/WhatsApp Image 2025-08-26 at 9.13.55 PM.jpeg"  width="420">
