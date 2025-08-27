@@ -26,4 +26,4 @@ Cocinar postres.
 [Diagrama del sistema](recursos/imgs/WhatsApp Image 2025-08-26 at 9.13.55 PM.jpeg)
 
 <!-- Control de tamaño usando HTML (cuando se requiera) -->
-<img src="WhatsApp Image 2025-08-26 at 9.13.55 PM.jpeg" alt="Diagrama del sistema" width="420">
+<img src=".../recursos/imgs/WhatsApp Image 2025-08-26 at 9.13.55 PM.jpeg" alt="Diagrama del sistema" width="420">
