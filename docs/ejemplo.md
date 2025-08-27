@@ -25,7 +25,7 @@ Cocinar postres.
 
 
 
-![Diagrama del sistema](recursos/imgs/ibero.jpeg)
+
 
 <!-- Control de tamaño usando HTML (cuando se requiera) -->
 <img src="../recursos/imgs/ibero.jpeg" alt="Diagrama del sistema" width="420">
