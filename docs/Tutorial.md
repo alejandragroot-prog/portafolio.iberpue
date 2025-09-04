@@ -3,7 +3,9 @@
 ##Impresoras 3D IBERO Puebla 
 
 ###ENDER 3 S1 PRO
-/../docs/recursos/imgs/Ender.png/
+
+<!-- Control de tamaño usando HTML (cuando se requiera) -->
+<img src="../recursos/imgs/Ender.png" alt="Diagrama del sistema" width="420">
 
   + **Tecnología de impresión:** FDM
   + **Volumen de impresión:** 220 x 220 x 270 mm
