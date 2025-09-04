@@ -5,7 +5,7 @@
 ###ENDER 3 S1 PRO
 
 <!-- Control de tamaño usando HTML (cuando se requiera) -->
-<img src="../recursos/imgs/elder3.png" alt="Diagrama del sistema" width="420">
+<img src="../recursos/imgs/ender3.png" alt="Diagrama del sistema" width="420">
 
   + **Tecnología de impresión:** FDM
   + **Volumen de impresión:** 220 x 220 x 270 mm
