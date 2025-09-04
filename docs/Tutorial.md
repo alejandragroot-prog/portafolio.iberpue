@@ -62,7 +62,7 @@
 4.	Selecciona Opciones (Options).
 5.	Cambia las opciones a binario, las unidades que requieres para tu modelo y finalmente cambia la resolución a Personalizada.
 6.	Guardar
-
+---
 + ### Pasar el archivo de STL a Cura
 ??? info "Antes de iniciar"
     Instala Ultimaker Cura
