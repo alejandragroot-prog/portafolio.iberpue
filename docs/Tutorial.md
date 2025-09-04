@@ -13,35 +13,35 @@
 
  ##SINDOH 3DWOX 
   
-•	**Printing Technology:** FDM
-•	**Build Volume:** 210 x 200 x 195 mm
-•	**Printing Speed:** 200 mm/s
-•	**XY resolution:** ± Not Given
-•	**Layer Height:** 0.05 - 0.4 mm
-•	**Nozzle Temperature:** Up to 270° C
-•	**Supported Materials:** PLA, ABS, PETG, ASA
++	**Printing Technology:** FDM
++	**Build Volume:** 210 x 200 x 195 mm
++	**Printing Speed:** 200 mm/s
++	**XY resolution:** ± Not Given
++	**Layer Height:** 0.05 - 0.4 mm
++	**Nozzle Temperature:** Up to 270° C
+   **Supported Materials:** PLA, ABS, PETG, ASA
 
  	##Stratasys Dimension 1200es
   
-•	**Printing Technology:** FFM Fused Filament Fabrication
-•	**Build Volume:** 254 x 254 x 305 mm
-•	**Printing Speed:** 150 mm/s
-•	**XY resolution:** ± Not GIven
-•	**Layer Height:** 0.254 - 0.33 mm
-•	**Nozzle Temperature:** Not GIVEN
-•	**Supported Materials:** ABS, PLA, PET, PC, ASA
++	**Printing Technology:** FFM Fused Filament Fabrication
++	**Build Volume:** 254 x 254 x 305 mm
++	**Printing Speed:** 150 mm/s
++	**XY resolution:** ± Not GIven
++	**Layer Height:** 0.254 - 0.33 mm
++	**Nozzle Temperature:** Not GIVEN
++	**Supported Materials:** ABS, PLA, PET, PC, ASA
 
  	###PRUSA MK4S
   
-•	Printing Technology: FDM
-•	Build Volume: 250 x 210 x 220 mm
-•	Printing Speed: 600 mm/s
-•	XY resolution: ± 0.12 mm
-•	Layer Height: 0.05 - 0.3 mm
-•	Nozzle Temperature: Max 290° C
-•	Supported Materials: PLA, PETG, Flex, PVA, PC, PP, CPE, PVB
++	**Printing Technology:** FDM
++	**Build Volume:** 250 x 210 x 220 mm
++	**Printing Speed:** 600 mm/s
++	**XY resolution:** ± 0.12 mm
++	**Layer Height:** 0.05 - 0.3 mm
++	**Nozzle Temperature:** Max 290° C
++	**Supported Materials:** PLA, PETG, Flex, PVA, PC, PP, CPE, PVB
 
-##**Importante** 
+## **Importante** 
 •	-Guarda tu archivo en STL.
 1.	Selecciona archivo >Guardar como.
 2.	Nombra tu archivo y selecciona Tipo.
