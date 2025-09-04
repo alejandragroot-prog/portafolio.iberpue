@@ -2,7 +2,7 @@
 
 ##Impresoras 3D IBERO Puebla 
 
--###**ENDER 3 S1 PRO**
+##ENDER 3 S1 PRO
  ***Tecnología de impresión:** FDM
 ***Volumen de impresión:** 220 x 220 x 270 mm
  ***Velocidad de impresión:** 150 mm/s
@@ -11,7 +11,7 @@
  ***Temperatura de la boquilla:** Más de 300° C
  ***Materiales:** PLA, ABS, PETG, TPU, PA, WOOD
 
- 	###**SINDOH 3DWOX 1**
+ ##SINDOH 3DWOX 
   
 •	**Printing Technology:** FDM
 •	**Build Volume:** 210 x 200 x 195 mm
@@ -21,7 +21,7 @@
 •	**Nozzle Temperature:** Up to 270° C
 •	**Supported Materials:** PLA, ABS, PETG, ASA
 
- 	###**Stratasys Dimension 1200es**
+ 	##Stratasys Dimension 1200es
   
 •	**Printing Technology:** FFM Fused Filament Fabrication
 •	**Build Volume:** 254 x 254 x 305 mm
@@ -31,7 +31,7 @@
 •	**Nozzle Temperature:** Not GIVEN
 •	**Supported Materials:** ABS, PLA, PET, PC, ASA
 
- 	###**PRUSA MK4S**
+ 	###PRUSA MK4S
   
 •	Printing Technology: FDM
 •	Build Volume: 250 x 210 x 220 mm
