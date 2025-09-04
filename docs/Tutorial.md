@@ -54,14 +54,16 @@
 +	**Supported Materials:** PLA, PETG, Flex, PVA, PC, PP, CPE, PVB
 
 ## **Importante** 
-•	-Guarda tu archivo en STL.
+-Guarda tu archivo en STL.
+
 1.	Selecciona archivo >Guardar como.
 2.	Nombra tu archivo y selecciona Tipo.
 3.	Selecciona STL.
 4.	Selecciona Opciones (Options).
 5.	Cambia las opciones a binario, las unidades que requieres para tu modelo y finalmente cambia la resolución a Personalizada.
 6.	Guardar
-1.Pasar el archivo de STL a Cura
+
++ ### Pasar el archivo de STL a Cura
 ??? info "Antes de iniciar"
     Instala Ultimaker Cura
 
