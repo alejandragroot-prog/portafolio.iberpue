@@ -5,7 +5,7 @@
 ###ENDER 3 S1 PRO
 
 <!-- Control de tamaño usando HTML (cuando se requiera) -->
-<img src="../recursos/imgs/Ender.png" alt="Diagrama del sistema" width="420">
+<img src="../recursos/imgs/"elder3.png alt="Diagrama del sistema" width="420">
 
   + **Tecnología de impresión:** FDM
   + **Volumen de impresión:** 220 x 220 x 270 mm
@@ -16,6 +16,9 @@
   + **Materiales:** PLA, ABS, PETG, TPU, PA, WOOD
 
  ###SINDOH 3DWOX 
+
+<!-- Control de tamaño usando HTML (cuando se requiera) -->
+<img src="../recursos/imgs/"sindoh.png alt="Diagrama del sistema" width="420">
   
 +	**Printing Technology:** FDM
 +	**Build Volume:** 210 x 200 x 195 mm
@@ -26,6 +29,9 @@
    **Supported Materials:** PLA, ABS, PETG, ASA
 
  	###Stratasys Dimension 1200es
+
+  <!-- Control de tamaño usando HTML (cuando se requiera) -->
+<img src="../recursos/imgs/"stratasys.png alt="Diagrama del sistema" width="420">
   
 +	**Printing Technology:** FFM Fused Filament Fabrication
 +	**Build Volume:** 254 x 254 x 305 mm
@@ -36,6 +42,8 @@
 +	**Supported Materials:** ABS, PLA, PET, PC, ASA
 
  	###PRUSA MK4S
+ 	<!-- Control de tamaño usando HTML (cuando se requiera) -->
+<img src="../recursos/imgs/"Prusa-MK4S-31939_2.png alt="Diagrama del sistema" width="420">
   
 +	**Printing Technology:** FDM
 +	**Build Volume:** 250 x 210 x 220 mm
