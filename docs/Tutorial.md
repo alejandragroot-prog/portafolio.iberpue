@@ -15,7 +15,7 @@
   + **Temperatura de la boquilla:** Más de 300° C
   + **Materiales:** PLA, ABS, PETG, TPU, PA, WOOD
 
-   ###SINDOH 3DWOX 
+  ###SINDOH 3DWOX 
 
 <!-- Control de tamaño usando HTML (cuando se requiera) -->
 <img src="../recursos/imgs/sindoh.png" alt="Diagrama del sistema" width="420">
