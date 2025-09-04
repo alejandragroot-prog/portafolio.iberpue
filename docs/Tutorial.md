@@ -2,14 +2,14 @@
 
 ##Impresoras 3D IBERO Puebla 
 
- 	###**ENDER 3 S1 PRO**
-•	**Tecnología de impresión:** FDM
-•	**Volumen de impresión:** 220 x 220 x 270 mm
-•	**Velocidad de impresión:** 150 mm/s
-•	**XY resolución n:** ± 0.1 mm
-•	**Altura de capa:** 0.05 - 0.4 mm
-•	**Temperatura de la boquilla:** Más de 300° C
-•	**Materiales:** PLA, ABS, PETG, TPU, PA, WOOD
+-###**ENDER 3 S1 PRO**
+ ***Tecnología de impresión:** FDM
+***Volumen de impresión:** 220 x 220 x 270 mm
+ ***Velocidad de impresión:** 150 mm/s
+ ***XY resolución n:** ± 0.1 mm
+ ***Altura de capa:** 0.05 - 0.4 mm
+ ***Temperatura de la boquilla:** Más de 300° C
+ ***Materiales:** PLA, ABS, PETG, TPU, PA, WOOD
 
  	###**SINDOH 3DWOX 1**
   
