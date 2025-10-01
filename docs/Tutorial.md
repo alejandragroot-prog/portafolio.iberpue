@@ -1,58 +1,58 @@
-#**TUTORIAL DE USO DE IMPRESORAS 3D IDIT**
+#**PRÁCTICAS PRIMER SEMESTRE**
 
-##Impresoras 3D IBERO Puebla 
+##Microcontroladores 
 
-###ENDER 3 S1 PRO
-
-<!-- Control de tamaño usando HTML (cuando se requiera) -->
-<img src="../recursos/imgs/ender3.jpg"  alt="Diagrama del sistema" width="420">
-
-  + **Tecnología de impresión:** FDM
-  + **Volumen de impresión:** 220 x 220 x 270 mm
-  + **Velocidad de impresión:** 150 mm/s
-  + **XY resolución n:** ± 0.1 mm
-  + **Altura de capa:** 0.05 - 0.4 mm
-  + **Temperatura de la boquilla:** Más de 300° C
-  + **Materiales:** PLA, ABS, PETG, TPU, PA, WOOD
-
-###SINDOH 3DWOX 
+##SP32
 
 <!-- Control de tamaño usando HTML (cuando se requiera) -->
-<img src="../recursos/imgs/sindoh.png" alt="Diagrama del sistema" width="420">
+<img src="../recursos/imgs/esp32.png"  alt="Diagrama del sistema" width="420">
+
+  + El ESP32 es un microcontrolador, al igual que el Arduino, pero tiene conectividad Bluetooth y WiFi ya integrada en la placa. Esto facilita mucho los proyectos de IoT, ya que intercambiarán información constantemente con la red.
+
+##Puente H
+
+<!-- Control de tamaño usando HTML (cuando se requiera) -->
+<img src="../recursos/imgs/puenteH.png" alt="Diagrama del sistema" width="420">
   
-+	**Printing Technology:** FDM
-+	**Build Volume:** 210 x 200 x 195 mm
-+	**Printing Speed:** 200 mm/s
-+	**XY resolution:** ± Not Given
-+	**Layer Height:** 0.05 - 0.4 mm
-+	**Nozzle Temperature:** Up to 270° C
-   **Supported Materials:** PLA, ABS, PETG, ASA
++	El puente H es un circuito electrónico que se utiliza para controlar el movimiento de motores, en particular motores de corriente continua (DC). Su nombre se debe a la forma típica del circuito, que se asemeja a la letra «H». El principal objetivo del puente H es permitir que un motor gire en ambas direcciones: hacia adelante y hacia atrás. Para lograr esto, se utilizan conmutadores o interruptores, que pueden ser mecánicos (como relés) o electrónicos (como transistores).
 
- 	###Stratasys Dimension 1200es
+ 	###Práctica 1
 
   <!-- Control de tamaño usando HTML (cuando se requiera) -->
 <img src="../recursos/imgs/stratasys.png" alt="Diagrama del sistema" width="420">
   
-+	**Printing Technology:** FFM Fused Filament Fabrication
-+	**Build Volume:** 254 x 254 x 305 mm
-+	**Printing Speed:** 150 mm/s
-+	**XY resolution:** ± Not GIven
-+	**Layer Height:** 0.254 - 0.33 mm
-+	**Nozzle Temperature:** Not GIVEN
-+	**Supported Materials:** ABS, PLA, PET, PC, ASA
++	**Materiales:** FFM Fused Filament Fabrication
++	ESP 32
++	1 resistencia de 1K
++	Jumpers
++	Led
++	Botón
 
- 	###PRUSA MK4S
+ 	#Parte 1: 
  	<!-- Control de tamaño usando HTML (cuando se requiera) -->
-<img src="../recursos/imgs/Prusa-MK4S-31939_2.png" alt="Diagrama del sistema" width="420">
-  
-+	**Printing Technology:** FDM
-+	**Build Volume:** 250 x 210 x 220 mm
-+	**Printing Speed:** 600 mm/s
-+	**XY resolution:** ± 0.12 mm
-+	**Layer Height:** 0.05 - 0.3 mm
-+	**Nozzle Temperature:** Max 290° C
-+	**Supported Materials:** PLA, PETG, Flex, PVA, PC, PP, CPE, PVB
+<img src="../recursos/imgs/prac1prt1.jpeg" alt="Diagrama del sistema" width="420">
 
+  Codigo
+  const int led = 33;
+  const int led = 25;
+
+  void setup(){
+    serial.begin(115200); //INICIO DE LA COMUNICACION
+  pinMode(led, OUTPUT);
+  pinMode(btn, INPUT);
+  
+  }
+
+  void loop(){
+
+    int estado= digitalRead(btn);
+    if (estado==1){
+      digitalWrite(led,1);
+    }
+  else{
+    digitalWrite(led,0)
+  }
+}
 ## **Importante** 
 -Guarda tu archivo en STL.
 
