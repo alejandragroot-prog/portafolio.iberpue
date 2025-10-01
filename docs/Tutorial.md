@@ -16,10 +16,10 @@
   
 +	El puente H es un circuito electrónico que se utiliza para controlar el movimiento de motores, en particular motores de corriente continua (DC). Su nombre se debe a la forma típica del circuito, que se asemeja a la letra «H». El principal objetivo del puente H es permitir que un motor gire en ambas direcciones: hacia adelante y hacia atrás. Para lograr esto, se utilizan conmutadores o interruptores, que pueden ser mecánicos (como relés) o electrónicos (como transistores).
 
+??? info "Antes de iniciar"
+    Toda la programación se realiza con el programa arduino, asi mismo asegurate de tener descargada la biblioteca ESP 32 by Arduino
+    
  	###Práctica 1
-
-  <!-- Control de tamaño usando HTML (cuando se requiera) -->
-<img src="../recursos/imgs/stratasys.png" alt="Diagrama del sistema" width="420">
   
 +	**Materiales:** FFM Fused Filament Fabrication
 +	ESP 32
