@@ -32,10 +32,21 @@
  	<!-- Control de tamaño usando HTML (cuando se requiera) -->
 <img src="../recursos/imgs/prac1prt1.jpeg" alt="Diagrama del sistema" width="420">
 
+``` codigo
+```python
+def medir(canal: int) -> dict:
+    # Simulación de lectura
+    return {"canal": canal, "valor": 523, "unidad": "mV"}
+
+print(medir(1))
+```
+```
+
+
   ``` codigo
+```
   const int led = 33;
   const int led = 25;
-
   void setup(){
     serial.begin(115200); //INICIO DE LA COMUNICACION
   pinMode(led, OUTPUT);
@@ -50,6 +61,7 @@
     digitalWrite(led,0)
   }
 }
+```
 ``` 
 
 ## **Importante** 
