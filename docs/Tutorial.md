@@ -55,6 +55,36 @@
 } 
 ```
 
+#Parte 2: Conectar ESP32 por Bluetooth
+ 	<!-- Control de tamaño usando HTML (cuando se requiera) -->
+<img src="../recursos/imgs/bluetoothvideo.mp4" alt="Diagrama del sistema" width="420">
+
+
+
+
+
+``` codigo
+  const int led = 33;
+  const int led = 25;
+  void setup(){
+    serial.begin(115200); //INICIO DE LA COMUNICACION
+    serialBT.begin ("Arduinito") // Nombre del dispositivo Bluetooth
+  }
+  void loop(){
+    if (SerialBT.available()){
+          String mensaje= SerialBT.readString();
+          Serial.printlin("Recibido: "+mensaje);
+      if (mensaje==1){
+      digitalWrite(led,1);
+    }
+    else{
+    digitalWrite(led,0)
+     }
+  }
+  delay (1000);
+}
+```
+
 ## **Importante** 
 -Guarda tu archivo en STL.
 
