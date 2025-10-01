@@ -32,7 +32,7 @@
  	<!-- Control de tamaño usando HTML (cuando se requiera) -->
 <img src="../recursos/imgs/prac1prt1.jpeg" alt="Diagrama del sistema" width="420">
 
-  Codigo
+  ```codigo
   const int led = 33;
   const int led = 25;
 
@@ -53,6 +53,8 @@
     digitalWrite(led,0)
   }
 }
+```
+
 ## **Importante** 
 -Guarda tu archivo en STL.
 
