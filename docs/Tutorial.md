@@ -275,18 +275,17 @@ Para este carro se baso en una camioneta Jeep, la camioneta presentada tiene det
  #include "BluetoothSerial.h"
 BluetoothSerial SerialBT;
 // Pines del puente H
-const int IN1 = 21; // Motor izquierdo
-const int IN2 = 17;
-const int ENA = 18;
-const int IN3 = 16; // Motor derecho
-const int IN4 = 19;
-const int ENB = 5;
+const int IN1 = 4; // Motor izquierdo
+const int IN2 = 16;
+const int ENA = 2;
+const int IN3 = 17; // Motor derecho
+const int IN4 = 18;
+const int ENB = 19;
 int valSpeed = 255;
-void setup() {
  
   Serial.begin(115200);
  
-  SerialBT.begin("Terreneitor"); // Nombre del dispositivo Bluetooth
+  SerialBT.begin("Otrocarrito"); // Nombre del dispositivo Bluetooth
   pinMode(IN1, OUTPUT);
   pinMode(IN2, OUTPUT);
   pinMode(ENA, OUTPUT);
@@ -373,3 +372,4 @@ void setSpeed(int val) {
 }
 ```
 
+Se utilizo una aplicación externa para controlar el movimiento del carrito
