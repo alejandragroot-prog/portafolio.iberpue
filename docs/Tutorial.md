@@ -253,6 +253,123 @@ En esta parte el servomotor se programa para ir aumentando progresivamente 10° 
   
 }
 ```
+##Proyecto Primer parcial
+  
++	**Materiales:** 
++	ESP 32
++	Jumpers
++	2 motores
++	1 Puente H
++	2 llantas de 7cm de diametro
++	1 rueda loca
++	Tornillos
 
 
+ 	#Diseño: 
+ 	<!-- Control de tamaño usando HTML (cuando se requiera) -->
+<img src="../recursos/imgs/pract3pt1.jpeg" alt="Diagrama del sistema" width="420">
+
+Para este carro se baso en una camioneta Jeep, la camioneta presentada tiene detalles en vinil como lo son las flamas, letras con el nombre de la universidad, acrilico para las ventanas para simular los cristales, la carrocería del carro fue cortada en MDF con corte laser
+
+``` codigo
+ #include "BluetoothSerial.h"
+BluetoothSerial SerialBT;
+// Pines del puente H
+const int IN1 = 21; // Motor izquierdo
+const int IN2 = 17;
+const int ENA = 18;
+const int IN3 = 16; // Motor derecho
+const int IN4 = 19;
+const int ENB = 5;
+int valSpeed = 255;
+void setup() {
+ 
+  Serial.begin(115200);
+ 
+  SerialBT.begin("Terreneitor"); // Nombre del dispositivo Bluetooth
+  pinMode(IN1, OUTPUT);
+  pinMode(IN2, OUTPUT);
+  pinMode(ENA, OUTPUT);
+  pinMode(IN3, OUTPUT);
+  pinMode(IN4, OUTPUT);
+  pinMode(ENB, OUTPUT);
+  stopMotors();
+}
+ 
+void loop() {
+  if (SerialBT.available()) {
+    char command = SerialBT.read();
+    Serial.println(command);
+    switch (command) {
+      case 'F': forward(); break;
+      case 'B': backward(); break;
+      case 'L': turnLeft(); break;
+      case 'R': turnRight(); break;
+      case 'S': stopMotors(); break;
+      case '0': setSpeed(0); break;
+      case '1': setSpeed(25); break;
+      case '2': setSpeed(50); break;
+      case '3': setSpeed(75); break;
+      case '4': setSpeed(100); break;
+      case '5': setSpeed(125); break;
+      case '6': setSpeed(150); break;
+      case '7': setSpeed(175); break;
+      case '8': setSpeed(200); break;
+      case '9': setSpeed(255); break;
+    }
+  }
+ 
+}
+ 
+void forward() {
+  analogWrite(ENA, valSpeed);
+  analogWrite(ENB, valSpeed);
+  digitalWrite(IN1, HIGH);
+  digitalWrite(IN2, LOW);
+  digitalWrite(IN3, HIGH);
+  digitalWrite(IN4, LOW);
+}
+ 
+void backward() {
+  analogWrite(ENA, valSpeed);
+  analogWrite(ENB, valSpeed);
+  digitalWrite(IN1, LOW);
+  digitalWrite(IN2, HIGH);
+  digitalWrite(IN3, LOW);
+  digitalWrite(IN4, HIGH);
+}
+ 
+void turnLeft() {
+  analogWrite(ENA, valSpeed / 2);
+  analogWrite(ENB, valSpeed);
+  digitalWrite(IN1, HIGH);
+  digitalWrite(IN2, LOW);
+  digitalWrite(IN3, HIGH);
+  digitalWrite(IN4, LOW);
+}
+ 
+void turnRight() {
+  analogWrite(ENA, valSpeed);
+  analogWrite(ENB, valSpeed / 2);
+  digitalWrite(IN1, HIGH);
+  digitalWrite(IN2, LOW);
+  digitalWrite(IN3, HIGH);
+  digitalWrite(IN4, LOW);
+}
+ 
+void stopMotors() {
+  analogWrite(ENA, 0);
+  analogWrite(ENB, 0);
+  digitalWrite(IN1, LOW);
+  digitalWrite(IN2, LOW);
+  digitalWrite(IN3, LOW);
+  digitalWrite(IN4, LOW);
+}
+ 
+void setSpeed(int val) {
+ 
+  valSpeed = val;
+ 
+}
+```
 
