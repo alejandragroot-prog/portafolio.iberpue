@@ -265,7 +265,7 @@ En esta parte el servomotor se programa para ir aumentando progresivamente 10° 
 +	Tornillos
 
 
- 	#Diseño: 
+ 	##Diseño: 
  	<!-- Control de tamaño usando HTML (cuando se requiera) -->
 <img src="../recursos/imgs/pract3pt1.jpeg" alt="Diagrama del sistema" width="420">
 
