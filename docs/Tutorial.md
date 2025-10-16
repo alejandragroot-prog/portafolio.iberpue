@@ -116,9 +116,13 @@
 ```
 
 #Parte 2: Controlar la velocidad de un motor
+[![Watch the video](https://raw.githubusercontent.com/yourusername/yourrepository/main/assets/thumbnail.jpg)](
+https://github.com/alejandragroot-prog/portafolio.iberpue/tree/main/docs/recursos/imgs/bluetoothvideo.mp4)
+
+
 
  	<!-- Control de tamaño usando HTML (cuando se requiera) -->
-<img src="../recursos/imgs/bluetoothvideo.mp4" alt="Diagrama del sistema" width="420">
+<img src="../recursos/imgs/" alt="Diagrama del sistema" width="420">
 
 En esta parte de la práctica se programa el ESP32 para controlar la velocidad de un motor, que esta misma aumente progresivamente
 
