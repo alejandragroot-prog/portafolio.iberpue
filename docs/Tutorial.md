@@ -23,7 +23,10 @@
 +	Led
 +	Botón
 
- 	#Parte 1: 
+ 	#Parte 1:
+ 	[![Video botón]((https://github.com/user-attachments/assets/d7e651e6-7837-465f-8d42-074e409ded0c))](
+(https://github.com/user-attachments/assets/d7e651e6-7837-465f-8d42-074e409ded0c))
+
  	<!-- Control de tamaño usando HTML (cuando se requiera) -->
 <img src="../recursos/imgs/prac1prt1.jpeg" alt="Diagrama del sistema" width="420">
 
@@ -47,6 +50,9 @@
 ```
 
 #Parte 2: Conectar ESP32 por Bluetooth
+
+[![Video de Bluetooth]((https://github.com/user-attachments/assets/6a2b3d79-d8a2-48d0-89df-c29a69da3fc4))](
+(https://github.com/user-attachments/assets/6a2b3d79-d8a2-48d0-89df-c29a69da3fc4))
  	<!-- Control de tamaño usando HTML (cuando se requiera) -->
 <img src="../recursos/imgs/bluetoothvideo.mp4" alt="Diagrama del sistema" width="420">
 
@@ -91,7 +97,10 @@
 +	El puente H es un circuito electrónico que se utiliza para controlar el movimiento de motores, en particular motores de corriente continua (DC). Su nombre se debe a la forma típica del circuito, que se asemeja a la letra «H». El principal objetivo del puente H es permitir que un motor gire en ambas direcciones: hacia adelante y hacia atrás. Para lograr esto, se utilizan conmutadores o interruptores, que pueden ser mecánicos (como relés) o electrónicos (como transistores).
 
 
- 	#Parte 1: 
+ 	#Parte 1:
+ 	[![Video servo 1]((https://github.com/user-attachments/assets/9e2282d8-9d06-47ef-9bc6-e8f399e492ed))](
+(https://github.com/user-attachments/assets/9e2282d8-9d06-47ef-9bc6-e8f399e492ed))
+
  	<!-- Control de tamaño usando HTML (cuando se requiera) -->
 <img src="../recursos/imgs/pract2pt1.jpeg" alt="Diagrama del sistema" width="420">
 
@@ -116,8 +125,8 @@
 ```
 
 #Parte 2: Controlar la velocidad de un motor
-[![Watch the video]((https://github.com/user-attachments/assets/6a2b3d79-d8a2-48d0-89df-c29a69da3fc4))](
-(https://github.com/user-attachments/assets/6a2b3d79-d8a2-48d0-89df-c29a69da3fc4))
+[![Video servo parte 2]((https://github.com/user-attachments/assets/02af577b-2cc1-4608-91f2-31bf3dbeccb5))](
+(https://github.com/user-attachments/assets/02af577b-2cc1-4608-91f2-31bf3dbeccb5))
 
 
 En esta parte de la práctica se programa el ESP32 para controlar la velocidad de un motor, que esta misma aumente progresivamente
