@@ -116,8 +116,8 @@
 ```
 
 #Parte 2: Controlar la velocidad de un motor
-[![Watch the video](https://raw.githubusercontent.com/yourusername/yourrepository/main/assets/thumbnail.jpg)](
-https://github.com/alejandragroot-prog/portafolio.iberpue/tree/main/docs/recursos/imgs/bluetoothvideo.mp4)
+[![Watch the video]((https://github.com/user-attachments/assets/6a2b3d79-d8a2-48d0-89df-c29a69da3fc4))](
+(https://github.com/user-attachments/assets/6a2b3d79-d8a2-48d0-89df-c29a69da3fc4))
 
 
 
