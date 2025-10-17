@@ -53,8 +53,7 @@
 
 [![Video de Bluetooth]((https://github.com/user-attachments/assets/6a2b3d79-d8a2-48d0-89df-c29a69da3fc4))](
 (https://github.com/user-attachments/assets/6a2b3d79-d8a2-48d0-89df-c29a69da3fc4))
- 	<!-- Control de tamaño usando HTML (cuando se requiera) -->
-<img src="../recursos/imgs/bluetoothvideo.mp4" alt="Diagrama del sistema" width="420">
+
 
 ``` codigo
   const int led = 33;
