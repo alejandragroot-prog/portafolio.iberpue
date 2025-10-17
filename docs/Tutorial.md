@@ -120,10 +120,6 @@
 (https://github.com/user-attachments/assets/6a2b3d79-d8a2-48d0-89df-c29a69da3fc4))
 
 
-
- 	<!-- Control de tamaño usando HTML (cuando se requiera) -->
-<img src="../recursos/imgs/" alt="Diagrama del sistema" width="420">
-
 En esta parte de la práctica se programa el ESP32 para controlar la velocidad de un motor, que esta misma aumente progresivamente
 
 ``` codigo
