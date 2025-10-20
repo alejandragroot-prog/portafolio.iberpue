@@ -411,7 +411,7 @@ https://youtube.com/shorts/-BoEvhaO5zg?feature=share
 
 Pese a haber sido eficiente en sus pruebas piloto, el día de la competencia sufrio contratiempos inesperados como se puede observar en el siguiente video:
 
-https://youtu.be/CgaybSU6_40?si=fNyFkTOkUv3oFaG8
+[Ver video explicativo](https://youtu.be/CgaybSU6_40?si=fNyFkTOkUv3oFaG8)
 
 Se llega a la siguiente conclusión: Hay mejoras estructurales que podrían cambiarse en un siguiente proyecto, detalles a tomar en cuenta y hacer más pruebas con el proyecto previo a la entrega.
 
