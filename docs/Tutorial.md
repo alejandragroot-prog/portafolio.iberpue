@@ -59,8 +59,7 @@ Para poder controlar la ESP32 se utiliza la aplicación "Serial Bluetooth Termin
 ??? info "Antes de iniciar" 
 Los teléfonos iPhone no se pueden conectar a la aplicación por lo que se puede probar con dispositivos Android o una computadora con Bluetooth
 
-[![Video de Bluetooth]((https://github.com/user-attachments/assets/6a2b3d79-d8a2-48d0-89df-c29a69da3fc4))](
-(https://github.com/user-attachments/assets/6a2b3d79-d8a2-48d0-89df-c29a69da3fc4))
+[Video Bluetooth](https://youtube.com/shorts/YmqibzFyFkQ?si=xfnZ4DQk0jpMGE2k)
 
 
 ``` codigo
