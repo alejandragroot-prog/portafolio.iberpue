@@ -250,7 +250,7 @@ En esta parte de la práctica se programa un ESP32 para controlar un servomotor,
 ```
 
 #Parte 2:
-https://youtube.com/shorts/YmqibzFyFkQ?si=xfnZ4DQk0jpMGE2k
+[Video de servomotor girando progresivamente partiendo desde cero](https://youtube.com/shorts/YmqibzFyFkQ?si=xfnZ4DQk0jpMGE2k)
 
 En esta parte el servomotor se programa para ir aumentando progresivamente 10° iniciando desde los 0°.
 
@@ -407,11 +407,11 @@ void setSpeed(int val) {
 Se utilizo una aplicación externa para controlar el movimiento del carrito.
 En el siguiente video es posible observar el funcionamiento piloto del proyecto:
 
-https://youtube.com/shorts/-BoEvhaO5zg?feature=share
+[Pruebas piloto](https://youtube.com/shorts/-BoEvhaO5zg?feature=share)
 
 Pese a haber sido eficiente en sus pruebas piloto, el día de la competencia sufrio contratiempos inesperados como se puede observar en el siguiente video:
 
-[Ver video explicativo](https://youtu.be/CgaybSU6_40?si=fNyFkTOkUv3oFaG8)
+[Video de competencia](https://youtu.be/CgaybSU6_40?si=fNyFkTOkUv3oFaG8)
 
 Se llega a la siguiente conclusión: Hay mejoras estructurales que podrían cambiarse en un siguiente proyecto, detalles a tomar en cuenta y hacer más pruebas con el proyecto previo a la entrega.
 
