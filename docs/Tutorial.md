@@ -27,7 +27,7 @@
 #Parte 1:
 [Video Botón](https://youtube.com/shorts/-1IOQ58C9as?feature=share)
 
- 	<!-- Control de tamaño usando HTML (cuando se requiera) -->
+<!-- Control de tamaño usando HTML (cuando se requiera) -->
 <img src="../recursos/imgs/prac1prt1.jpeg" alt="Diagrama del sistema" width="420">
 
 ``` codigo
