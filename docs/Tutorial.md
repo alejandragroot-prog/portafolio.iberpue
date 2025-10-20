@@ -25,7 +25,9 @@
 +	Resistencia de 10k
 
  	#Parte 1:
- 	[![Video botón]((https://github.com/user-attachments/assets/d7e651e6-7837-465f-8d42-074e409ded0c))](
+
+ 	
+[![Video botón]((https://github.com/user-attachments/assets/d7e651e6-7837-465f-8d42-074e409ded0c))](
 (https://github.com/user-attachments/assets/d7e651e6-7837-465f-8d42-074e409ded0c))
 
  	<!-- Control de tamaño usando HTML (cuando se requiera) -->
@@ -131,6 +133,7 @@ Los teléfonos iPhone no se pueden conectar a la aplicación por lo que se puede
    delay(4000);
 } 
 ```
+
 ##PWM
 La Modulación por Ancho de Pulso (PWM) es una técnica que permite simular una señal analógica utilizando una señal digital que alterna rápidamente entre los estados HIGH y LOW. Esto es útil para controlar dispositivos como LEDs, motores y altavoces, ajustando su brillo, velocidad o tono, respectivamente.
 
@@ -189,6 +192,7 @@ void loop() {
 }
 }
 ```
+
 ###Práctica 3 : Actuadores
   
 +	**Materiales:** 
