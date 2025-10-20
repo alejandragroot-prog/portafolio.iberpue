@@ -22,6 +22,7 @@
 +	Jumpers
 +	Led
 +	Botón
++	Resistencia de 10k
 
  	#Parte 1:
  	[![Video botón]((https://github.com/user-attachments/assets/d7e651e6-7837-465f-8d42-074e409ded0c))](
@@ -50,6 +51,11 @@
 ```
 
 #Parte 2: Conectar ESP32 por Bluetooth
+
+Para poder controlar la ESP32 se utiliza la aplicación "Serial Bluetooth Terminal"
+
+??? info "Antes de iniciar" 
+Los teléfonos iPhone no se pueden conectar a la aplicación por lo que se puede probar con dispositivos Android o una computadora con Bluetooth
 
 [![Video de Bluetooth]((https://github.com/user-attachments/assets/6a2b3d79-d8a2-48d0-89df-c29a69da3fc4))](
 (https://github.com/user-attachments/assets/6a2b3d79-d8a2-48d0-89df-c29a69da3fc4))
@@ -94,6 +100,9 @@
 <img src="../recursos/imgs/puenteH.png" alt="Diagrama del sistema" width="420">
   
 +	El puente H es un circuito electrónico que se utiliza para controlar el movimiento de motores, en particular motores de corriente continua (DC). Su nombre se debe a la forma típica del circuito, que se asemeja a la letra «H». El principal objetivo del puente H es permitir que un motor gire en ambas direcciones: hacia adelante y hacia atrás. Para lograr esto, se utilizan conmutadores o interruptores, que pueden ser mecánicos (como relés) o electrónicos (como transistores).
++	El puente H se conecta siguiendo el siguiente diagrama:
+  <!-- Control de tamaño usando HTML (cuando se requiera) -->
+<img src="../recursos/imgs/puenteHdiagrama.png" alt="Diagrama del sistema" width="420">
 
 
  	#Parte 1:
@@ -122,6 +131,18 @@
    delay(4000);
 } 
 ```
+##PWM
+La Modulación por Ancho de Pulso (PWM) es una técnica que permite simular una señal analógica utilizando una señal digital que alterna rápidamente entre los estados HIGH y LOW. Esto es útil para controlar dispositivos como LEDs, motores y altavoces, ajustando su brillo, velocidad o tono, respectivamente.
+
+Funcionamiento de PWM en Arduino
+
+Arduino utiliza temporizadores internos para generar señales PWM en pines específicos marcados con el símbolo ~. La función principal para trabajar con PWM es analogWrite(pin, valor), donde el parámetro valor varía entre 0 y 255:
+
+0: La señal estará siempre en LOW.
+
+255: La señal estará siempre en HIGH.
+
+127: La señal estará en HIGH el 50% del tiempo (ciclo de trabajo del 50%).
 
 #Parte 2: Controlar la velocidad de un motor
 [![Video servo parte 2]((https://github.com/user-attachments/assets/02af577b-2cc1-4608-91f2-31bf3dbeccb5))](
@@ -223,8 +244,7 @@ En esta parte de la práctica se programa un ESP32 para controlar un servomotor,
 ```
 
 #Parte 2:
- 	<!-- Control de tamaño usando HTML (cuando se requiera) -->
-<img src="../recursos/imgs/bluetoothvideo.mp4" alt="Diagrama del sistema" width="420">
+https://youtube.com/shorts/YmqibzFyFkQ?si=xfnZ4DQk0jpMGE2k
 
 En esta parte el servomotor se programa para ir aumentando progresivamente 10° iniciando desde los 0°.
 
@@ -271,13 +291,11 @@ En esta parte el servomotor se programa para ir aumentando progresivamente 10° 
 +	2 llantas de 7cm de diametro
 +	1 rueda loca
 +	Tornillos
++	Baterias de 12V 
 
 
  	##Diseño: 
- 	<!-- Control de tamaño usando HTML (cuando se requiera) -->
-<img src="../recursos/imgs/pract3pt1.jpeg" alt="Diagrama del sistema" width="420">
-
-Para este carro se baso en una camioneta Jeep, la camioneta presentada tiene detalles en vinil como lo son las flamas, letras con el nombre de la universidad, acrilico para las ventanas para simular los cristales, la carrocería del carro fue cortada en MDF con corte laser
+Para este carro se inspiro en una camioneta Jeep, la camioneta presentada tiene detalles en vinil como lo son las flamas, letras con el nombre de la universidad, acrilico para las ventanas para simular los cristales, la carrocería del carro fue cortada en MDF con corte laser
 
 ``` codigo
  #include "BluetoothSerial.h"
@@ -285,19 +303,19 @@ BluetoothSerial SerialBT;
 // Pines del puente H
 const int IN1 = 4; // Motor izquierdo
 const int IN2 = 16;
-const int ENA = 2;
+const int ENA = 2; //PWM
 const int IN3 = 17; // Motor derecho
 const int IN4 = 18;
 const int ENB = 19;
-int valSpeed = 255;
+int valSpeed = 255; //PWM
  
   Serial.begin(115200);
  
   SerialBT.begin("Otrocarrito"); // Nombre del dispositivo Bluetooth
-  pinMode(IN1, OUTPUT);
+  pinMode(IN1, OUTPUT); //Motor derecho
   pinMode(IN2, OUTPUT);
   pinMode(ENA, OUTPUT);
-  pinMode(IN3, OUTPUT);
+  pinMode(IN3, OUTPUT);//Motor izquierdo
   pinMode(IN4, OUTPUT);
   pinMode(ENB, OUTPUT);
   stopMotors();
@@ -308,11 +326,11 @@ void loop() {
     char command = SerialBT.read();
     Serial.println(command);
     switch (command) {
-      case 'F': forward(); break;
-      case 'B': backward(); break;
-      case 'L': turnLeft(); break;
-      case 'R': turnRight(); break;
-      case 'S': stopMotors(); break;
+      case 'F': forward(); break;  //Adelante
+      case 'B': backward(); break; //Atras
+      case 'L': turnLeft(); break; //Izquierda
+      case 'R': turnRight(); break;//Derecha
+      case 'S': stopMotors(); break;//Detenerse
       case '0': setSpeed(0); break;
       case '1': setSpeed(25); break;
       case '2': setSpeed(50); break;
@@ -379,5 +397,15 @@ void setSpeed(int val) {
  
 }
 ```
+##Funcionamiento
+Se utilizo una aplicación externa para controlar el movimiento del carrito.
+En el siguiente video es posible observar el funcionamiento piloto del proyecto:
 
-Se utilizo una aplicación externa para controlar el movimiento del carrito
+https://youtube.com/shorts/-BoEvhaO5zg?feature=share
+
+Pese a haber sido eficiente en sus pruebas piloto, el día de la competencia sufrio contratiempos inesperados como se puede observar en el siguiente video:
+
+https://youtu.be/CgaybSU6_40?si=fNyFkTOkUv3oFaG8
+
+Se llega a la siguiente conclusión: Hay mejoras estructurales que podrían cambiarse en un siguiente proyecto, detalles a tomar en cuenta y hacer más pruebas con el proyecto previo a la entrega.
+
