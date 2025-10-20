@@ -27,8 +27,7 @@
  	#Parte 1:
 
  	
-[![Video botón]((https://github.com/user-attachments/assets/d7e651e6-7837-465f-8d42-074e409ded0c))](
-(https://github.com/user-attachments/assets/d7e651e6-7837-465f-8d42-074e409ded0c))
+[Video Botón](https://youtube.com/shorts/-1IOQ58C9as?feature=share)
 
  	<!-- Control de tamaño usando HTML (cuando se requiera) -->
 <img src="../recursos/imgs/prac1prt1.jpeg" alt="Diagrama del sistema" width="420">
@@ -109,8 +108,7 @@ Los teléfonos iPhone no se pueden conectar a la aplicación por lo que se puede
  	#Parte 1:
 El siguiente video se puede observar el funcionamiento objetivo de esta práctica:
 
-[![Video servo 1]((https://github.com/user-attachments/assets/9e2282d8-9d06-47ef-9bc6-e8f399e492ed))](
-(https://github.com/user-attachments/assets/9e2282d8-9d06-47ef-9bc6-e8f399e492ed))
+[Video motor parte 1](https://youtu.be/1-iVSy3lYFE)
 
  	<!-- Control de tamaño usando HTML (cuando se requiera) -->
 <img src="../recursos/imgs/pract2pt1.jpeg" alt="Diagrama del sistema" width="420">
@@ -149,8 +147,7 @@ Arduino utiliza temporizadores internos para generar señales PWM en pines espec
 127: La señal estará en HIGH el 50% del tiempo (ciclo de trabajo del 50%).
 
 #Parte 2: Controlar la velocidad de un motor
-[![Video servo parte 2]((https://github.com/user-attachments/assets/02af577b-2cc1-4608-91f2-31bf3dbeccb5))](
-(https://github.com/user-attachments/assets/02af577b-2cc1-4608-91f2-31bf3dbeccb5))
+[Video motor parte 2](https://youtube.com/shorts/-IvpXZFyuBY?si=AdCl1KKyLr1cQX18)
 
 
 En esta parte de la práctica se programa el ESP32 para controlar la velocidad de un motor, que esta misma aumente progresivamente
@@ -209,6 +206,7 @@ void loop() {
 
 En esta parte de la práctica se programa un ESP32 para controlar un servomotor, para ir cambiando gradualmente el ángulo 0-90, 0-180 en un ciclo infinito.
 
+[Video servomotor parte 2](https://youtube.com/shorts/IjsgafZaUr0?feature=share)
 ``` codigo
   #define pwm 27
   int duty = 0;
@@ -249,7 +247,7 @@ En esta parte de la práctica se programa un ESP32 para controlar un servomotor,
 ```
 
 #Parte 2:
-[Video de servomotor girando progresivamente partiendo desde cero](https://youtube.com/shorts/YmqibzFyFkQ?si=xfnZ4DQk0jpMGE2k)
+[Video de servomotor girando progresivamente partiendo desde cero](https://youtube.com/shorts/SdGjUoPbMO4?feature=share)
 
 En esta parte el servomotor se programa para ir aumentando progresivamente 10° iniciando desde los 0°.
 
