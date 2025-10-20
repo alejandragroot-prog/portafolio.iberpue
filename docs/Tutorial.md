@@ -24,9 +24,7 @@
 +	Botón
 +	Resistencia de 10k
 
- 	#Parte 1:
-
- 	
+#Parte 1:
 [Video Botón](https://youtube.com/shorts/-1IOQ58C9as?feature=share)
 
  	<!-- Control de tamaño usando HTML (cuando se requiera) -->
@@ -104,13 +102,12 @@ Los teléfonos iPhone no se pueden conectar a la aplicación por lo que se puede
   <!-- Control de tamaño usando HTML (cuando se requiera) -->
 <img src="../recursos/imgs/puenteHdiagrama.png" alt="Diagrama del sistema" width="420">
 
-
- 	#Parte 1:
+#Parte 1:
 El siguiente video se puede observar el funcionamiento objetivo de esta práctica:
 
 [Video motor parte 1](https://youtu.be/1-iVSy3lYFE)
 
- 	<!-- Control de tamaño usando HTML (cuando se requiera) -->
+<!-- Control de tamaño usando HTML (cuando se requiera) -->
 <img src="../recursos/imgs/pract2pt1.jpeg" alt="Diagrama del sistema" width="420">
 
 ``` codigo
