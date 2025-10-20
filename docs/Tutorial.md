@@ -108,7 +108,9 @@ Los teléfonos iPhone no se pueden conectar a la aplicación por lo que se puede
 
 
  	#Parte 1:
- 	[![Video servo 1]((https://github.com/user-attachments/assets/9e2282d8-9d06-47ef-9bc6-e8f399e492ed))](
+El siguiente video se puede observar el funcionamiento objetivo de esta práctica:
+
+[![Video servo 1]((https://github.com/user-attachments/assets/9e2282d8-9d06-47ef-9bc6-e8f399e492ed))](
 (https://github.com/user-attachments/assets/9e2282d8-9d06-47ef-9bc6-e8f399e492ed))
 
  	<!-- Control de tamaño usando HTML (cuando se requiera) -->
