@@ -681,3 +681,12 @@ El proyecto permitió poner en practica los conceptos de mecatrónica, combinand
  
 También se destaca la importancia de una buena organización y tiempos de trabajo definidos para lograr un proyecto exitoso.
  
+$$ 
+{}^{0}_{1}T =
+\begin{bmatrix}
+\cos\theta_{1} & -\sin\theta_{i} & 0 & a_{1}\cos\theta_{1} \\
+\sin\theta_{1} & \cos\theta_{i} & 0 & a_{1}\sin\theta_{1} \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 1
+\end{bmatrix}
+$$
