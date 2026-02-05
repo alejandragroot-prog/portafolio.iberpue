@@ -680,7 +680,17 @@ sock.close()
 El proyecto permitió poner en practica los conceptos de mecatrónica, combinando diseño, control y visión por computadora. El sistema final demuestra cómo el uso de reconocimiento por cámara y control PID puede aplicarse a un mecanismo basico como balancear una pelota, a sistemas mas complejos que permiten que un proyecto funcione de manera apropiada.
  
 También se destaca la importancia de una buena organización y tiempos de trabajo definidos para lograr un proyecto exitoso.
- 
+
+
+Ejemplo 1
+ ### Parámetros Denavit–Hartenberg
+
+| Eslabón | \(a_i\) | \(\alpha_i\) | \(d_i\) | \(\theta_i\) |
+|---------|---------|--------------|---------|--------------|
+| 1       | \(a_1\) | 0            | 0       | \(\theta_1\) |
+| 2       | \(a_2\) | 0            | 0       | \(\theta_2\) |
+
+
 $$ 
 {}^{0}_{1}T =
 \begin{bmatrix}
