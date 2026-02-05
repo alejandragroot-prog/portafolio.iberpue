@@ -683,6 +683,7 @@ También se destaca la importancia de una buena organización y tiempos de traba
 
 
 Ejemplo 1
+
 \[
 \begin{array}{|c|c|c|c|c|}
 \hline
@@ -693,7 +694,6 @@ Ejemplo 1
 \hline
 \end{array}
 \]
-
 
 $$ 
 {}^{0}_{1}T =
