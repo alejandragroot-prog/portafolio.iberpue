@@ -690,3 +690,23 @@ $$
 0 & 0 & 0 & 1
 \end{bmatrix}
 $$
+
+$$
+{}^{1}_{2}T =
+\begin{bmatrix}
+\cos\theta_{2} & -\sin\theta_{2} & 0 & a_{2}\cos\theta_{2} \\
+\sin\theta_{2} & \cos\theta_{2}  & 0 & a_{2}\sin\theta_{2} \\
+0              & 0               & 1 & 0 \\
+0              & 0               & 0 & 1
+\end{bmatrix}
+$$
+
+$$
+{}^{0}_{2}T =
+\begin{bmatrix}
+\cos\theta_{12} & -\sin\theta_{12} & 0 & a_{1}\cos\theta_{1} + a_{2}\cos\theta_{12} \\
+\sin\theta_{12} &  \cos\theta_{12} & 0 & a_{1}\sin\theta_{1} + a_{2}\sin\theta_{12} \\
+0               & 0                & 1 & 0 \\
+0               & 0                & 0 & 1
+\end{bmatrix}
+$$
