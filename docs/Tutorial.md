@@ -683,12 +683,16 @@ También se destaca la importancia de una buena organización y tiempos de traba
 
 
 Ejemplo 1
- ### Parámetros Denavit–Hartenberg
-
-| Eslabón | \(a_i\) | \(\alpha_i\) | \(d_i\) | \(\theta_i\) |
-|---------|---------|--------------|---------|--------------|
-| 1       | \(a_1\) | 0            | 0       | \(\theta_1\) |
-| 2       | \(a_2\) | 0            | 0       | \(\theta_2\) |
+\[
+\begin{array}{|c|c|c|c|c|}
+\hline
+\text{Eslabón} & a_i & \alpha_i & d_i & \theta_i \\
+\hline
+1 & a_1 & 0 & 0 & \theta_1 \\
+2 & a_2 & 0 & 0 & \theta_2 \\
+\hline
+\end{array}
+\]
 
 
 $$ 
